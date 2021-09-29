@@ -1,0 +1,33 @@
+h1 {
+  font-size: 35px;
+  color: rgb(255,248,220);
+  background-color: rgb(95,158,160);
+  
+}
+
+.board {
+  margin-top:5px;
+  background-color: rgb(255,248,220);
+}
+.heading {
+  padding:10px 10px;
+  color:#fdfa72;
+}
+.draggable-card {
+  border-radius:0px;
+}
+.fixed-card {
+  color:#ccc;
+  border:1px dotted #ccc; 
+  border-radius:0px;
+}
+
+.edit-icon {
+  position:absolute;
+  top:5px;
+  right:5px
+}
+
+.cards-list {
+  min-height:300px;
+}
